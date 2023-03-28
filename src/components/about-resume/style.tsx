@@ -1,20 +1,13 @@
 import styled from "styled-components";
 
-const ImgJose = styled.div`
-  width: 50%;
-  height: 70vh;
-  border-radius: 10px;
-  box-shadow: inset 0 0 500px black;
-  margin: 0 auto;
-  margin-top: 36px;
+const AboutResumContainer = styled.div`
+  width: 100%;
+  min-height: 100vh;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   justify-content: center;
   align-items: center;
-  text-align: center;
-  background-image: url("./jose-ramalho.jpg");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: auto;
 `
-export { ImgJose }
+
+
+export { AboutResumContainer }

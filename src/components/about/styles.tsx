@@ -2,19 +2,19 @@ import styled from "styled-components";
 
 const AboutContainer = styled.div`
     display: flex;
-    flex-flow: row wrap;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
     height: 100vh;
-    margin: 36px;
     padding: 8px;
-    background-color: rgb(21 46 57);
+    background-color: rgb(0 0 0 / 47%);
     border-radius: 0.5rem;
     
    
     h1 {
         text-align: center;
         font-size: 36px;
-       
-        padding-top: 50%;
     }
     h2 {
         font-size: 24px;
@@ -32,19 +32,46 @@ const AboutContainer = styled.div`
         padding-top: 8px;
        
     }
-`
-
-const Colum = styled.div`
-    width: 33%;
-
-@media (max-width: 1366px) {
-    width: 100%;
-    height: 10px;
-
-    h1{
-        padding-top: 0;
+    .about-container{
+        width: 70%;
+        height: 50vh;
+        padding: 8px;
     }
-}
-`
+    .about-text{
+        text-align: justify;
+        height: 100vh;
+        margin: 8px;
+    }
 
-export { AboutContainer, Colum }
+    li{
+        list-style: none;
+        margin: 16px;
+    }
+
+    a{
+        color: #fff;
+        margin-right: 16px;
+    }
+
+    span{
+        font-size: 1.5rem;
+    }
+`
+const ImgJose = styled.div`
+    margin: 16px;
+    border-radius: 3rem;
+    float: left;
+    width: 50%;
+    min-height: 700px;
+    padding: 0 10px 0 0;
+    background-image: url("./jose-ramalho-no-back.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: auto;
+
+    @media (max-width: 720px) {
+    display: none;
+
+    }
+`
+export { AboutContainer, ImgJose }

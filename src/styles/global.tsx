@@ -1,6 +1,7 @@
 import styled, { createGlobalStyle } from 'styled-components'
 
 const GlobalStyle = createGlobalStyle`
+
 *{
   padding: 0px;
     margin: 0px;
@@ -11,7 +12,7 @@ const GlobalStyle = createGlobalStyle`
 }
 
 body {
-  background-image: url("./background.png");
+  background-image: url("./background3.jpg");
   height: 100%;
   min-height: 100%;
   box-shadow: inset 0 0 500px black;
@@ -31,11 +32,12 @@ body {
 
 :root{
     --primary-color: #da5e53;
+    --bg-color: #1b1d1c;
   }
 `
 const Container = styled.div`
   color: white;
-  max-width: 1280px;
+  //max-width: 1280px;
   margin: 0 auto;
   text-align: center;
 
@@ -55,5 +57,5 @@ const Container = styled.div`
     margin: 4px;
   }`
 
-export { GlobalStyle,Container };
+export { GlobalStyle, Container };
 
