@@ -26,25 +26,25 @@ export default function AboutSection() {
                             aplicativos de qualidade superior.</p>
 
                         <p>
-                        <a href="https://www.linkedin.com/in/jos%C3%A9-ramalho-8a1a07159/">
-                            <span className="label"><i className="fa fa-linkedin-square" aria-hidden="true"></i>
-                                LinkedIn</span>
-                        </a>
+                            <a href="https://www.linkedin.com/in/jos%C3%A9-ramalho-8a1a07159/">
+                                <span className="label"><i className="fa fa-linkedin-square" aria-hidden="true"></i>
+                                    LinkedIn</span>
+                            </a>
                         </p>
-                        
+
                         <p>
-                        <a href="https://github.com/Jose-WDG">
-                            <span className="label"><i className="fa fa-github" aria-hidden="true"></i> GitHub</span>
-                        </a>
+                            <a href="https://github.com/Jose-WDG">
+                                <span className="label"><i className="fa fa-github" aria-hidden="true"></i> GitHub</span>
+                            </a>
                         </p>
-                        
+
                         <p>
-                        <a href="https://api.whatsapp.com/send?phone=5511992339592">
-                            <span className="label"><i className="fa fa-whatsapp" aria-hidden="true"></i> WhatsApp: 11 9 92339592</span>
-                        </a>
+                            <a href="https://api.whatsapp.com/send?phone=5511992339592">
+                                <span className="label"><i className="fa fa-whatsapp" aria-hidden="true"></i> WhatsApp: 11 9 92339592</span>
+                            </a>
                         </p>
-                        
-                        
+
+
                     </div>
                 </div>
             </AboutContainer>
