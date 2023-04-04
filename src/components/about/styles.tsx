@@ -11,30 +11,9 @@ const AboutContainer = styled.div`
     background-color: rgb(0 0 0 / 47%);
     border-radius: 0.5rem;
     
-   
-    h1 {
-        text-align: center;
-        font-size: 36px;
-    }
-    h2 {
-        font-size: 24px;
-        padding-top: 8px;
-       
-    }
-    h3 {
-        font-size: 16px;
-        padding-top: 8px;
-      
-    }
-    p {
-        font-size: 16px;
-        line-height: 25px;
-        padding-top: 8px;
-       
-    }
     .about-container{
         width: 70%;
-        height: 50vh;
+        height: 100vh;
         padding: 8px;
     }
     .about-text{

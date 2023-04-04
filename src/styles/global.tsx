@@ -23,7 +23,26 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
 }
-
+h1 {
+        text-align: center;
+        font-size: 36px;
+    }
+    h2 {
+        font-size: 24px;
+        padding-top: 8px;
+       
+    }
+    h3 {
+        font-size: 16px;
+        padding-top: 8px;
+      
+    }
+    p {
+        font-size: 16px;
+        line-height: 25px;
+        padding-top: 8px;
+       
+    }
 @media only screen and (max-device-width: 1366px) {
   .body {
     background-attachment: scroll;
